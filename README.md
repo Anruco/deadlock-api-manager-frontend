@@ -63,6 +63,8 @@ Sigue los siguientes pasos para ejecutar el proyecto localmente:
    # O usando Yarn
    yarn install
    ```
+   Dependencias incluidas en futuras versiones: 
+   npm install @mui/material @emotion/react @emotion/styled
 
 4. Crea un archivo `.env` en la raíz del proyecto con tu clave de la API de Steam:
 
@@ -77,6 +79,9 @@ Sigue los siguientes pasos para ejecutar el proyecto localmente:
    # O usando Yarn
    yarn start
    ```
+
+   npm install axios
+
 
 6. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
