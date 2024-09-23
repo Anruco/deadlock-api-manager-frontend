@@ -13,7 +13,7 @@ function SteamGameDetails() {
         const response = await axios.get(
           'https://store.steampowered.com/api/appdetails?appids=1422450'
         );
-        const data = response.data['765290'];
+        const data = response.data['1422450'];
         if (data.success) {
           setGameData(data.data);
         } else {

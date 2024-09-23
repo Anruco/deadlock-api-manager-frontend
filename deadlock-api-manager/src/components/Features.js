@@ -32,7 +32,7 @@ function Features() {
           <Card>
             <CardContent>
               <Typography variant="h5">📱 Responsive</Typography>
-              <iframe src="https://steamdb.info/app/1422450/charts/"></iframe>
+              
             </CardContent>
           </Card>
         </Grid>

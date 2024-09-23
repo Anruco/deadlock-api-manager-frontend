@@ -52,15 +52,6 @@ function Hero() {
         }}
       >
         <Container>
-          <Typography variant="h2" component="h1" gutterBottom>
-            Bienvenido a Mi Landing Page
-          </Typography>
-          <Typography variant="h5" paragraph>
-            Una página increíble para mostrar tu producto o servicio.
-          </Typography>
-          <Button variant="contained" size="large" sx={{ mt: 3, backgroundColor: '#61dafb' }}>
-            Empieza Ahora
-          </Button>
         </Container>
       </Box>
     </Box>
