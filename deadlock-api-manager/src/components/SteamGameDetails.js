@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { CircularProgress, Typography, Box } from '@mui/material';
+import { CircularProgress, Box } from '@mui/material';
 
 function SteamGameDetails() {
   const [gameData, setGameData] = useState(null);
