@@ -3,16 +3,17 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import '../styles//Header.css'; // Asegúrate de crear este archivo CSS
 
 function Header() {
   return (
     <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          DeadLock
-        </Typography>
-        <Button color="inherit" href="#features">Características</Button>
-        <Button color="inherit" href="#contact">Contacto</Button>
+      <Toolbar className="toolbar">
+        <img
+          src="/Images/Deadlock.webp"
+          alt="Logo"
+          className="header-logo"
+        />
       </Toolbar>
     </AppBar>
   );
