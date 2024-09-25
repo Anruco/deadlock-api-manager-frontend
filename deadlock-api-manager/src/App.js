@@ -1,19 +1,24 @@
+// src/App.js
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Footer from './components/Footer';
-import SteamGameDetails from './components/SteamGameDetails';
+import Home from './pages/Home';
+/* import Features from './pages/Features';
+import Contact from './pages/Contact'; */
 
 function App() {
   return (
-    <div>
+    <Router>
+      {/* Header es común para todas las páginas */}
       <Header />
-      <Hero />
-      <SteamGameDetails />
-      <Features />
-      <Footer />
-    </div>
+      
+      {/* Rutas de la aplicación */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+       {/*  <Route path="/features" element={<Features />} />
+        <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
